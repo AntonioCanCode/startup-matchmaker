@@ -1,0 +1,167 @@
+/* ################################################## */
+/* ########### Global classes / overrides ########### */
+/* ################################################## */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+
+/* Fonts, classes are so I can reuse the styles on a variety of elements */
+.merriweather { font-family: 'Merriweather', serif; }
+.oswald { font-family: 'Oswald', sans-serif; }
+.lato { font-family: 'Lato', sans-serif; }
+
+/* Colors */
+/* Dark yellow: #f2ff00 */
+/* Lighter yellow: #ffd900 */
+/* Light gray: #adadad */
+/* Medium gray: #878787 */
+
+/* Background Image */
+/* https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg */
+
+body {
+  margin: 0 0;
+}
+
+nav {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 25px 5px;
+  border-bottom: 4px solid #f2ff00;
+}
+
+a {
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "oswald";
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+h2 {
+  text-align: center;
+  background: #adadad;
+  padding: 15px 0;
+  font-size: 22px;
+  font-family: "lato";
+  font-style: italic;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+
+}
+
+u {
+  text-decoration-color: #f2ff00;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "lato";
+
+}
+
+p {
+  font-size: 16px;
+  font-family: "lato";
+  line-height: 1.5;
+  padding: 15px 0;
+}
+
+button {
+  background: #878787;
+  font-family: "lato";
+  font-size: 16px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: none;
+  padding: 12px 0px;
+}
+
+button:hover {
+  cursor: pointer;
+
+}
+
+footer {
+  background: black;
+  color: white;
+  font-size: 12px;
+  padding: 10px 10px;
+  font-family: "lato";
+
+}
+
+.logo {
+  color: #f2ff00;
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 7px;
+  font-family: "merriweather";
+}
+
+.nav-links {
+  margin-right: 5px;
+}
+
+.bold-link {
+  font-weight: bold;
+  
+}
+
+.background-container {
+  height: 600px;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.match-container {
+  height: 210px;
+  width: 325px;
+  background-color: rgba(255, 255, 255, .85);
+  margin-right: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 45px;
+}
+
+.profile-button {
+  background: #f2ff00;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 1px solid #ffd900;
+  padding: 12px 0px;
+}
+
+.card-container {
+  display: flex;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  font-family: "merriweather";
+}
+
+.divider {
+  border-left: 1px solid lightgrey;
+  margin: 10px auto;
+}
+
